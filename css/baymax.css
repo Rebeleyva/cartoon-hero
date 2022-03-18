@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+	line-height: 30px;
+}
+header
+{
+	background-color: #DA1212;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1,h2
+{
+	font-family: 'Press Start 2P', cursive;
+}
+header h1
+{
+	color: white;
+	font-size: 50px;
+}
+
+header img
+{
+	/*Border-radius tiene que ser la mitad del modelo de cajas */
+	border-radius: 172.5px; 
+	width: 300px;
+	border: 15px solid #EEEEEE;
+}
+
+main 
+{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	/*top/bottom  left/right*/
+	/*top, right, bottom,left*/
+}
+
+main img
+{
+	max-width: 100%;
+}
+
+h2
+{
+	font-size: 30px;
+	color: #11468F;
+	margin: 40px 0 10px;
+}
+
+p
+{
+	font-size: 20px;
+}
+
+p.caption
+{
+	color: #999;
+	font-style: italic;
+	margin-top: 0;
+	text-align: center;
+}
+
+a
+{
+	color: #11468F;
+}
+
+a:hover
+{
+	color: white;
+	background-color: #041562;
+}
+
+
+footer
+{
+	background-color: #DA1212;
+	text-align: center;
+	padding: 8px;
+}
+
+footer p
+{
+	padding: 0;
+}
+
+footer a:hover
+{
+	opacity: .5;
+	background-color: transparent;
+}
